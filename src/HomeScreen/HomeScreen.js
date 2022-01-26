@@ -54,11 +54,10 @@ const HomeScreen = () => {
         style={{
           flexDirection: 'row',
           justifyContent: 'space-around',
-          width: '100%',
           flexWrap: 'wrap',
+          paddingTop : '8%',
           flex: 1,
           padding: 6,
-          height: '75%',
         }}>
         {btn.map(item => {
           return <CustomButton key={item.data} mode={mode} item={item} />;
@@ -84,11 +83,7 @@ const style = StyleSheet.create({
     elevation: 10,
   },
   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: '100%',
-    width: '100%',
+    height : '100%'
   },
   evalArea : {
     paddingRight: 30,

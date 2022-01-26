@@ -50,7 +50,7 @@ export default CustomButton;
 
 const styles = StyleSheet.create({
   btnStyles: {
-    height: 60,
+    height: '15%',
     width: '21%',
     justifyContent: 'center',
     alignItems: 'center',
